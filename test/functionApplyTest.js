@@ -44,7 +44,7 @@ describe("sayHi() is anonymous function", function () {
             expect(hi.message).to.equal("Hi! Rhyno");
 
             expect(hi.language).to.equal("ko");
-            expect(hi.hometown).to.equal("America")
+            expect(hi.hometown).to.equal("America");
         });
     });
 });

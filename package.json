@@ -4,7 +4,7 @@
   "description": "js pattern test with mocha, chai",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "eslint | mocha test/*.js"
   },
   "author": "",
   "license": "ISC",
