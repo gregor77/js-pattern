@@ -18,7 +18,7 @@ describe("forced cast test", function () {
                 //for window.console to nodejs console
                 var virtualConsole = jsdom.getVirtualConsole(window);
                 virtualConsole.on("log", function (message) {
-                    console.log(message);
+                    window.console.log(message);
                 });
 
                 done();
