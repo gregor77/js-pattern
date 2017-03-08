@@ -1,0 +1,16 @@
+{
+  "name": "js-pattern",
+  "version": "1.0.0",
+  "description": "js pattern test with mocha, chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdom": "^9.11.0",
+    "mocha": "^3.2.0"
+  }
+}
